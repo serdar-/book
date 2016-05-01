@@ -30,6 +30,7 @@ import sphinx_rtd_theme
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'nbsphinx',
     'sphinx.ext.doctest',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
@@ -52,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'A Primer on Data Analysis Using Python'
-copyright = u'2016, Serdar Özsezen, Groningen, the Netherlands'
+copyright = u'2016, Serdar Özsezen'
 author = u'Serdar Özsezen'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -80,7 +81,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store','**.ipynb_checkpoints']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.

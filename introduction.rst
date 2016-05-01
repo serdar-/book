@@ -67,6 +67,4 @@ Sharing the knowledge
 
 Origins of almost all the essential knowledge that I have in Python programming, lay in `StackOverflow <http://www.stackoverflow.com>`_
 and in blogs of generous programmers. Just like them, I will try to share all my knowledge in data analysis and Python programming with
-this book. I will try to explain everything in most simple sence and I will avoid using complex terms.
-
-`All in all, I will try to tell everything as simple as possible but not simpler. <http://www.brainyquote.com/quotes/quotes/a/alberteins103652.html>`_
+this book. I will try to explain everything in the most simple sence and I will avoid using complex terms.
